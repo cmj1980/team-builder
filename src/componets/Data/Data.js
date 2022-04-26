@@ -33,7 +33,7 @@ const data = [{
     name: "Casey Harding",
     email: "bestboss@harding,com",
     phone: "1-55-BESTBOSS",
-    role: "Lead Dev"
+    role: "Lead dev who subsequently lets every dev on his team take a year paid vacation to a beach somewhere on the Mediterranean"
 }]
 
 export default data;
