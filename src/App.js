@@ -21,12 +21,12 @@ function App() {
   return (
     <>
     <table className="content-table">
-    <thead>
+    <thead className="team-list">
       <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
-        <th>Role</th>
+        <th className='name'>Name</th>
+        <th className='email'>Email</th>
+        <th className='phone'>Phone</th>
+        <th className='role'>Role</th>
       </tr>
       {team.map(member => {
         return (

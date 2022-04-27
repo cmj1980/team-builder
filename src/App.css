@@ -1,38 +1,136 @@
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.submission-form {
+  max-width: 44.25rem;
+  height: 18rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  /* margin: 5px 1px 3px 0px; */
+  border: 1px solid rgba(81, 203, 238, 1);
+  background: url("https://thumbs.dreamstime.com/b/light-blue-background-abstract-42521993.jpg") no-repeat;
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  display: block;
+  padding: .4rem;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+input[type=text] {
+  width: 50%;
+  height: 2em;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus  {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=email] {
+   height: 2em;
+   width: 50%;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
 }
+ 
+input[type=tel]:focus  {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+input[type=tel] {
+  height: 2em;
+  width: 50%;
+ outline: none;
+ padding: 3px 0px 3px 3px;
+ margin: 5px 1px 3px 0px;
+ border: 1px solid #DDDDDD;
+}
+
+input[type=email]:focus  {
+ box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+ padding: 3px 0px 3px 3px;
+ margin: 5px 1px 3px 0px;
+ border: 1px solid rgba(81, 203, 238, 1);
+}
+
+input[type=submit] {
+  border: 0;
+  height: 2rem;
+  width: auto;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  background: #343050;
+  color: #fffc;
+  text-transform: uppercase;
+}
+
+.team-list {
+  width: 44.25rem;
+  border: 20px solid rgba(81, 203, 238, 1)
+}
+table {  
+  margin: 25px auto;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 740px; 
+  border-collapse: 
+  collapse; border-spacing: 0; 
+}
+
+td, th {  
+  border: 1px solid transparent; 
+  height: 40px; 
+  transition: all 0.3s;  
+}
+
+th {  
+  background: rgba(81, 203, 238, 1);  
+  font-weight: bold;
+  color: #FFF;
+}
+
+td {  
+  background: #FAFAFA;
+  text-align: center;
+}
+
+      
+tr:nth-child(even) td { 
+  background: #F1F1F1; 
+}   
+
+       
+tr:nth-child(odd) td { 
+  background: #FEFEFE; 
+}  
+
+tr td:hover { 
+  background: rgba(81, 203, 238, 1); 
+  color: #FFF; 
+}  
+
+
+
+
+
+

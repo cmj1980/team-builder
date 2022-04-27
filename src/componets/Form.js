@@ -39,6 +39,7 @@ export default function Form(props) {
                 name="email"
                 value={input.email}
                 onChange={evt => handleChanges(evt)}
+                placeholder="Enter Email"
                 />
             </label>
             <label>
@@ -48,6 +49,7 @@ export default function Form(props) {
                 name="phone"
                 value={input.phone}
                 onChange={evt => handleChanges(evt)}
+                placeholder="Enter Phone Number"
                 />
             </label>
             <label>
@@ -56,10 +58,16 @@ export default function Form(props) {
                 type="text"
                 name="role"
                 value={input.role}
-                onChange={evt => handleChanges(evt)} 
+                onChange={evt => handleChanges(evt)}
                 />
             </label>
-            <button className="btn" >Submit</button>
+            <label>
+                <input
+                type="submit"
+                name="submit"
+                value={input.submit}
+                />
+            </label>
 
         </form>
     );

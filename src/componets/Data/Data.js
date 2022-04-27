@@ -31,7 +31,7 @@ const data = [{
 }, {
     id: 6,
     name: "Casey Harding",
-    email: "bestboss@harding,com",
+    email: "bestboss@harding.com",
     phone: "1-55-BESTBOSS",
     role: "Lead dev who subsequently lets every dev on his team take a year paid vacation to a beach somewhere on the Mediterranean"
 }]
